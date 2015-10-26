@@ -1,12 +1,12 @@
-package br.com.gauge.model.dto;
+package br.com.pedro.model.dto;
 
-public class ExemploDTO {
-	
+public class ErrorDTO {
+
 	private String message;
 
-	public ExemploDTO() { }
+	public ErrorDTO() { }
 
-	public ExemploDTO(final String message) {
+	public ErrorDTO(final String message) {
 		this.message = message;
 	}
 
@@ -17,4 +17,5 @@ public class ExemploDTO {
 	public void setMessage(final String message) {
 		this.message = message;
 	}
+
 }

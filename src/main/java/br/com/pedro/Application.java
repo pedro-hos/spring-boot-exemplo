@@ -1,4 +1,4 @@
-package br.com.gauge;
+package br.com.pedro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

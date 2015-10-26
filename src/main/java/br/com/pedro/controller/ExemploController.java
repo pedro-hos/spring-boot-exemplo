@@ -1,4 +1,4 @@
-package br.com.gauge.controller;
+package br.com.pedro.controller;
 
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.gauge.model.dto.ExemploDTO;
+import br.com.pedro.model.dto.ExemploDTO;
 
 @RestController
 @RequestMapping("/exemplo")

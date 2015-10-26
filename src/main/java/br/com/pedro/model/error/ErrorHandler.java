@@ -1,4 +1,4 @@
-package br.com.gauge.model.error;
+package br.com.pedro.model.error;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import br.com.gauge.model.dto.ErrorDTO;
+import br.com.pedro.model.dto.ErrorDTO;
 
 @ControllerAdvice
 public class ErrorHandler {
