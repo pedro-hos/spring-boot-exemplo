@@ -9,9 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-@ComponentScan("br.com.gauge")
-@EntityScan("br.com.gauge")
-@EnableJpaRepositories("br.com.gauge")
+@ComponentScan("br.com.pedro")
+@EntityScan("br.com.pedro")
+@EnableJpaRepositories("br.com.pedro")
 @EnableTransactionManagement
 @SpringBootApplication
 class Application extends SpringBootServletInitializer {
